@@ -42,3 +42,42 @@ for (i=0; i<arr.length; i++){
             }}}}
 return sum1;
 }
+
+/**
+Le résultat est correct !
+Tout d'abord bien joué pour avoir réussi cet exercice ! il n'était pas évident !
+
+Il aurait été possible de faire beaucoup plus concis pour éviter de trop nombreuse conditions ou de boucle
+Comme dans l'exerice précédent tu peut utiliser la structure "for in" pour éviter d'utiliser un itérateur
+
+Ensuite ta première condition:
+if (typeof(arr[i])=="number"){
+    sum1+=arr[i];
+}
+A la bonne approche ! Tu utilises en plus la syntaxe raccourci pour ajouter ton résultat a sum1
+
+Ensuite tu as une condition qui ne fait rien
+
+else if (typeof(arr[i])=="string"){
+}
+
+Si ta condition ne fait rien, cela veut dire que tu peut t'en passer
+
+Ensuite la difficulté a été sur ces tableaux imbriqués !
+Tu as trouvé un résultat fonctionnel bravo ! Mais tu pouvais aussi utiliser la "récursivité"
+
+Au lieu de
+else if (arr[i].length>0) {
+  . . .
+
+Tu pourrais tout à fait faire:
+else if (typeof (arr[i] === 'object') {
+  result += sum(arr[i]);
+}
+
+ta fonction sum prends un tableau en paramètre, ce qui veut dire que si ton item est un tableau, tu peut rappeler ta fonction sum,
+même a l'intérieur d'elle même ! De cette manière tu pourrais avoir énormément de tableau imbriqué, ta fonction serait capable d'additioner tout les nombres!
+
+Bon challenge ! Tu as sut relever tous les défis et tu ne t'es pas laissé abattre par la difficulté que pouvait présenter le dernier exercice.
+Sois bien vigilant sur tes indentations et tes espacements, continue comme ça !
+ */

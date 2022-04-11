@@ -33,3 +33,12 @@ function getExtension(str) {
   
   return extension;
 }
+
+/**
+Le résultat est correct !
+
+Pour faire encore mieux tu n'es pas obligé d'utiliser de variable "separator" et directement splitter ('.')
+
+Ta condition est correct et lisible car elle est simple, si jamais tu as des conditions un peu plus complexe fait attention
+a ne pas perdre en lisibilité pour gagner quelques ligne de code.
+ */

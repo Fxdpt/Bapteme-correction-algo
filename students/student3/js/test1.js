@@ -25,3 +25,14 @@ else {
 function doubleInt(int) {
 return int*2;
 }
+
+/**
+Le résultat est correct !
+
+De plus tu as réussi a trouver la manière la plus concise de faire cet exercice.
+
+Fait attention a ton indentation et aux espaces pour gagner en lisibilité:
+function doubleInt(int) {
+  return int * 2;
+}
+ */

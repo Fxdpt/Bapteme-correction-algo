@@ -34,3 +34,14 @@ function getLongestString(arr) {
   
   return longuest;
 }
+
+/**
+Le résultat est correct !
+
+L'utilisation de reduce est une bonne idée !
+
+Attention cependant avec tes conditions, ici on commence à avoir des conditions un peu plus
+complexe et on perds un peu en lisibilité
+
+En bonus, c'est très bien d'utiliser des noms de variables en anglais ! Mais attention a l'orthographe :) "longest"
+*/

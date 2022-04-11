@@ -29,3 +29,24 @@ function isEven(int) {
       return false;
    }
 }
+
+/**
+Le résultat est correct !
+
+l'instruction "return" quitte l'éxécution de ta fonction. Ce qui veut dire que tu n'as pas forcément besoin de else.
+Par exemple tu pourrais faire:
+function isEven(int) {
+  if (int%2 === 0) {
+    return true;
+  }
+
+  return false;
+}
+Si tu ne rentres pas dans la condition, tu retournera false
+
+Ou encore plus simple en une ligne
+function isEven(int) {
+  return int % 2 === 0;
+}
+De cette manière tu retournes directement le résultat de l'égalité que tu teste.
+*/

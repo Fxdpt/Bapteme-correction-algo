@@ -1,5 +1,5 @@
 /*
- * Tests
+Tests
  */
 var container = document.getElementById('container');
 if (
@@ -25,3 +25,9 @@ else {
 function doubleInt(int) {
   return int * 2;
 }
+
+/**
+Le résultat est correct !
+
+De plus, tu as réussi à faire cela de la manière la plus concise qu'il soit
+ */

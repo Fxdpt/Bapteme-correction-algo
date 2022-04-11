@@ -41,3 +41,16 @@ function getLongestString(arr) {
    }
    return result;
 }
+
+/**
+Le résultat est correct !
+
+Pour ta boucle il existe aussi la structure "for in" qui te permet de boucler directement sur le nombre d'entrée de ton tableau  en récupérant seulement les index
+Cela permet d'être plus concis qu'une boucle for avec un compteur qui incrémente.
+
+for (var index in arr) {
+   if (result.length < arr[index].length) {
+      result = arr[index];
+   }
+}
+*/

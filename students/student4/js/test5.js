@@ -26,3 +26,8 @@ else {
 function sum(arr) {
 
 }
+
+
+/**
+ * Dommage que tu n'ai pas réussi a faire les 2 derniers exercices. Etait-il trop compliqué ou as-tu eu un empêchement ?
+ */

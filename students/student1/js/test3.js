@@ -38,3 +38,20 @@ function getExtension(str) {
       return (rep[index]);
    }
 }
+
+/**
+Le résultat est correct !
+
+Pour améliorer et réduire un peu ton code tu aurais put ne pas créer la variable index et retourner
+rep[rep.length - 1]
+
+Dans ta condition tu peut aussi tester directement la longueur de ton tableau:
+lorsque tu as splitté, tu as découpé ta string en un tableau.
+Si ce tableau n'a qu'un seul élément, c'est qu'aucune extension n'a été trouvé.
+
+if (rep.length === 1) {
+  return false
+}
+
+Lorsque tu as fini ton développement pense a vérifier que tu n'as pas laissé de debug non intentionnel (console.log, console.error, alert etc)
+ */

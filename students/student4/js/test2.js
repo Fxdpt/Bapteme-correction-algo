@@ -23,3 +23,14 @@ function isEven(int) {
 console.log(int);
 return int;
 }
+
+/**
+Le résultat est correct !
+Comme précedemment tu pourrais tout faire en une seule ligne:
+
+function isEven(int) {
+  return int % 2 === 0;
+}
+
+De cette manière tu retournes directement le résultat de l'égalité que tu teste.
+ */
