@@ -47,7 +47,7 @@ Je n'ai pas relevé les autres petits points (tel que les console.log) pour ne p
 
 ## Retour Général.
 
-Globalement je dirais que ce challenge est satisfaisant dans l'ensemble en prenant en compte les résultats des étudiants. Peut-être faire un petit point sur la récursivité qui a sembler échapper a tout les étudiants sur le 5e exercice. La réponse était dans la doc MDN des fonctions mais tous sont passés a travers ? peut etre ancré le résultat directement ? Ou un simple petit rappel oral en fin de journée sur cette notion !
+Globalement je dirais que ce challenge est satisfaisant dans l'ensemble en prenant en compte les résultats des étudiants. Peut-être faire un petit point sur la récursivité qui a sembler échapper a tout les étudiants sur le 5e exercice. La réponse était dans la doc MDN des fonctions mais tous sont passés a travers. Peut etre ancré le résultat directement ? Ou un simple petit rappel oral en fin de journée sur cette notion !
 
 Concernant les corrections nous pourrions supprimer les exemple commentés dans les exercices 2 et 3.
 
