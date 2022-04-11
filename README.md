@@ -30,7 +30,7 @@ Des petites choses à corriger (gestion des return, initialisation de variable n
 
 ### Etudiant 2:
 Très bon challenge, les 5 exercices ont été réussis, bonne maitrise et bonne connaissance des différentes fonctions native de Javascript.
-
+On sent que cet élève a déjà des bases solides dans la compréhension général du code et en algorithmie.
 Attention a ne pas vouloir faire "trop" technique au détriment de la lisibilité du code.
 
 ### Etudiant 3:
